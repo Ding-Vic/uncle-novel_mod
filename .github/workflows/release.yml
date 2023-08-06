@@ -2,8 +2,7 @@ name: package
 
 on:
   push:
-    tags:
-      - "v*.*.*"
+    branches: [ main ]
   workflow_dispatch:
   push:
     branches: [ main ]
