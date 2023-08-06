@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="../style/style.css"/>
 </head>
 <body>
-<h2>${data.name}</h2>
+<h2><span>${data.name}</span></h2>
 <div class="chapter">
     #foreach($paragraph in $data.content.split("\n"))
       <p>$paragraph</p>
