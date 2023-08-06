@@ -5,7 +5,10 @@ on:
     tags:
       - "v*.*.*"
   workflow_dispatch:
-
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 jobs:
   mac:
     strategy:
